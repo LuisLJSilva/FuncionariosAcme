@@ -83,6 +83,7 @@ RH notificado: Salário do Carol foi reajustado para 7700.0
 
 Informação adaptada do primeiro funcionário:
 Funcionario: Alice, Setor: DESENVOLVIMENTO, Cargo: JUNIOR
+```
 
 ### Observações
 - Este projeto não utiliza banco de dados.
