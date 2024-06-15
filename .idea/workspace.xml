@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168c4c96-18b2-422c-9905-2398f2a626e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/adapter/FuncionarioAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/adapter/FuncionarioAdapterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/factory/FuncionarioACMEFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/factory/FuncionarioFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/factory/FuncionarioTerceirizadoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/observer/RHObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/singleton/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/domain/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/domain/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/FuncionarioTerceirizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/domain/FuncionarioTerceirizado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/infnet/Setor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/infnet/domain/Setor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,11 +53,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.infnet.factory" />
       <recent name="br.com.infnet" />
     </key>
   </component>
@@ -55,7 +71,7 @@
       <module name="FuncionariosAcme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.infnet.*" />
+          <option name="PATTERN" value="br.com.infnet.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

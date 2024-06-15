@@ -1,4 +1,4 @@
-package br.com.infnet;
+package br.com.infnet.domain;
 
 public enum Cargo {
     ESTAGIARIO,

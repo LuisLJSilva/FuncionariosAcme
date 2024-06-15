@@ -1,8 +1,8 @@
-package br.com.infnet;
+package br.com.infnet.domain;
 
 import java.util.List;
 
-public class FuncionarioTerceirizado extends Funcionario{
+public class FuncionarioTerceirizado extends Funcionario {
     private String empresaContratada;
     private int tempoPrevistoDePermanencia;
 
