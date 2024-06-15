@@ -27,6 +27,21 @@ Nesta entrega, foi desenvolvido um projeto que simula a empresa ACME com duas en
 3. **Reajuste Salarial**
    - Implementado um método para reajuste salarial que se aplica apenas aos funcionários da empresa ACME.
 
+## Segunda Entrega
+
+### Descrição
+
+Nesta segunda etapa do projeto, identificamos e corrigimos “bad smells” no código e aplicamos princípios de Clean Code para melhorar a legibilidade e manutenção do projeto.
+
+### Refatorações Realizadas
+
+1. **Remoção de Comentários Desnecessários**: Todos os comentários foram removidos para manter o código limpo.
+2. **Melhoria nos Nomes**: Nomes de variáveis e métodos foram mantidos claros e descritivos.
+3. **Eliminação de Código Repetido**: Consolidamos a criação de listas de telefones diretamente na criação dos funcionários.
+4. **Divisão do Método Main**: O método `main` foi dividido em métodos auxiliares menores para melhorar a legibilidade e manutenção (`criarFuncionarios`, `criarFuncionariosTerceirizados`, `reajustarSalarios`, `exibirFuncionarios`).
+5. **Uso de Lambdas e Streams**: Substituímos os loops `for` por `forEach` e `streams` para tornar o código mais conciso e moderno.
+6. **Redução de Getters e Setters**: Removemos getters e setters desnecessários, mantendo apenas os que são utilizados.
+
 ### Observações
 - Este projeto não utiliza banco de dados.
 - O código foi desenvolvido de forma simples, sem a necessidade de interfaces adicionais.
